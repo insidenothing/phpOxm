@@ -5,7 +5,7 @@ $pos = strpos($buffer, $vm);
 if ($pos === false) {
 echo "'$vm' DOWN
 ";
-startVM($vm);
+echo startVM($vm);
 } else {
 echo "'$vm' UP
 ";
