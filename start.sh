@@ -2,4 +2,4 @@
 
 cd /etc/xen/
 
-xm create $1
+/usr/sbin/xm create $1
