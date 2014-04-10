@@ -14,3 +14,7 @@ I run 2 cron jobs
 
 
 This keeps all VM's up and running ( as long as there is no other event ) since XM only auto-boots on startup.
+
+
+
+@todo add routine for destroy/create cycle
