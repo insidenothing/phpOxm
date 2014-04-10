@@ -30,3 +30,12 @@ function monitVM($vm){
   $last_line = system('/root/phpOxm/monit.sh '.$vm, $retval);
   return ob_get_clean();
 }
+
+
+function whoami(){
+  ob_start();
+  $last_line = system('whoami', $retval);
+  $user = ob_get_clean();
+  error_log(date('r').": User $vm \n", 3, 'php.log'); 
+  return $user;
+}
