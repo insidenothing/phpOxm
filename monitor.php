@@ -1,8 +1,8 @@
 <?PHP
 // this file will check for the existance of a runing VM, if it is not running, start it
-
-$last_line = system('ls', $retval);
-
+ob_start();
+$last_line = system('xm list', $retval);
+$buffer = ob_get_clean();
 
 // Printing additional info
 echo '
