@@ -1,0 +1,5 @@
+<?PHP
+
+$rpath = "/root/phpOxm";
+$mpath = "/root/phpOxm/monit";
+
