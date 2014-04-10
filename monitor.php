@@ -9,11 +9,12 @@ function checkNstart($vm,$buffer){
 
   $pos = strpos($buffer, $vm);
   if ($pos === false) {
-      echo "The vm '$vm' was not found in the buffer. ";
+      echo "'$vm' DOWN
+      ";
       
   } else {
-      echo "The vm '$vm' was found in the buffer ";
-      echo " and exists at position $pos";
+      echo "'$vm' UP
+      ";
       // do nothing =)
   }
 
