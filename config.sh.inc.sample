@@ -1,0 +1,6 @@
+#!/bin/bash
+# cp config.sh.inc.sample config.sh.inc
+
+RPATH=/root/phpOxm
+MPATH=/root/phpOxm/monit
+
