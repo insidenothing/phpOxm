@@ -24,6 +24,6 @@ function checkNstart($vm,$buffer){
 
 
 checkNstart('qb2013',$buffer);
-checkNstart('fileserver2',$buffer);
-checkNstart('fileserver',$buffer);
+checkNstart('fileserver2 ',$buffer);
+checkNstart('fileserver ',$buffer);
 ?>
