@@ -5,6 +5,7 @@ $pos = strpos($buffer, $vm);
 if ($pos === false) {
 echo "'$vm' DOWN
 ";
+startVM($vm);
 } else {
 echo "'$vm' UP
 ";
@@ -13,8 +14,8 @@ echo "'$vm' UP
 }
 
 
-function startVM(){
-  
-  
-  
+function startVM($vm){
+  ob_start();
+  $last_line = system('start.sh '.$vm, $retval);
+  return ob_get_clean();
 }
