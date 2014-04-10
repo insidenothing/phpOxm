@@ -4,7 +4,7 @@ include 'functions.php';
 ob_start();
 $last_line = system('xm list', $retval);
 $buffer = ob_get_clean();
-check('qb2013',$buffer);
-check('fileserver2 ',$buffer);
-check('fileserver ',$buffer);
+checkVM('qb2013',$buffer);
+checkVM('fileserver2 ',$buffer);
+checkVM('fileserver ',$buffer);
 ?>
