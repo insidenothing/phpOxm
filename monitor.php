@@ -5,6 +5,7 @@ include 'functions.php';
 ob_start();
 $last_line = system('xm list', $retval);
 $buffer = ob_get_clean();
+error_log(date('r').": Buffer :: \n\n $buffer \n", 3, 'php.log');
 checkVM('qb2013',$buffer);
 checkVM('fileserver2 ',$buffer);
 checkVM('fileserver ',$buffer);
