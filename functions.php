@@ -1,6 +1,6 @@
 <?PHP
 
-function checkNstart($vm,$buffer){
+function checkVM($vm,$buffer){
 $pos = strpos($buffer, $vm);
 if ($pos === false) {
 echo "'$vm' DOWN
@@ -10,4 +10,11 @@ echo "'$vm' UP
 ";
 // do nothing =)
 }
+}
+
+
+function startVM(){
+  
+  
+  
 }
