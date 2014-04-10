@@ -1,0 +1,12 @@
+check file fileserver with path /root/phpOxm/monit/fileserver
+  group phpOxm
+  if changed timestamp then alert
+  
+check file fileserver2 with path /root/phpOxm/monit/fileserver2
+  group phpOxm
+  if changed timestamp then alert
+
+check file qb2013 with path /root/phpOxm/monit/qb2013
+  group phpOxm
+  if changed timestamp then alert
+  
