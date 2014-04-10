@@ -1,0 +1,4 @@
+# a few server side custom files
+php.log
+config.sh.inc
+config.php.inc
