@@ -1,7 +1,7 @@
 phpOxm
 ======
 
-PHP controlls for Xen VM, Integrated with Monit / Cron
+PHP controlls for Xen VM, Integrated with Monit / Cron, using bash as a frontend to the logic.
 
 
 
