@@ -2,4 +2,4 @@
 
 cd /etc/xen/
 
-echo $1
+xm create $1
