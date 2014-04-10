@@ -4,7 +4,7 @@ error_log(date('r').": Begin Monitor \n", 3, 'php.log');
 include 'functions.php';
 whoami();
 ob_start();
-$last_line = system('xm list', $retval);
+$last_line = system('/usr/sbin/xm list', $retval);
 $buffer = ob_get_clean();
 error_log(date('r').": Buffer :: \n\n $buffer \n", 3, 'php.log');
 checkVM('qb2013',$buffer);
