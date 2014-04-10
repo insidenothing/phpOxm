@@ -16,6 +16,6 @@ echo "'$vm' UP
 
 function startVM($vm){
   ob_start();
-  $last_line = system('start.sh '.$vm, $retval);
+  $last_line = system('/root/phpOxm/start.sh '.$vm, $retval);
   return ob_get_clean();
 }
