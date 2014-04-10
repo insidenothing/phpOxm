@@ -4,10 +4,5 @@ ob_start();
 $last_line = system('xm list', $retval);
 $buffer = ob_get_clean();
 
-// Printing additional info
-echo '
-</pre>
-<hr />Last line of the output: ' . $last_line . '
-<hr />Return value: ' . $retval;
-
+echo $buffer;
 ?>
