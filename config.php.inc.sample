@@ -1,5 +1,5 @@
 <?PHP
-
+// cp config.php.inc.sample config.php.inc
 $rpath = "/root/phpOxm";
 $mpath = "/root/phpOxm/monit";
 
